@@ -1,0 +1,38 @@
+/*Reset*/
+
+* {
+  background-color: #e7e7e7;
+  margin: 0;
+  font-family: Arial;
+}
+
+body {
+  max-width: 100%;
+}
+
+.topo {
+  display: flex;
+
+  margin-top: 48px;
+  margin-bottom: 58px;
+}
+
+.topo .logo {
+  margin-inline: auto;
+}
+
+div.painel {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+a.menu {
+  padding: 15px 30px;
+
+  text-decoration: none;
+  border: 1px solid red;
+  background: #ffff;
+  color: #000000;
+}
