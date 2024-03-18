@@ -1,7 +1,7 @@
 body {
   font-size: arial;
   margin: 0px;
-  background: #e7e7e7;
+  background: #f7f7f7;
   display: grid;
   gap: 60px;
   justify-items: center;
@@ -52,31 +52,65 @@ p {
 }
 
 .introducao {
+  background: #ffffff;
   padding: 40px;
   text-align: right;
-  background: #ffffff;
   position: relative;
+  display: grid;
+  gap: 20px;
+  align-content: center;
+  justify-items: end;
 }
 
-.vantagens {
-  background: #ffffff;
-}
-
-/* botão */
-
+/* Detalhe - linha vermelha entre as fotos */
 .detalhe {
   width: 60px;
   height: 4px;
   background: #e21;
-  display: inline-block;
   position: absolute;
   top: 30px;
+  right: -30px;
 }
 
+/* botão */
 .botao {
   background: #e21;
   color: #ffffff;
   padding: 15px 30px;
   border-radius: 4px;
   text-transform: uppercase;
+  justify-content: end;
+  /*justify-self: end;*/
+}
+
+.subtitulo {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: #808080;
+  text-align: right;
+  padding: 40px;
+  align-self: center;
+}
+
+.vantagens {
+  background: #ffffff;
+  padding: 40px;
+}
+
+.vantagens-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+  padding: 20px;
+}
+
+.vantagens-item p {
+  grid-column: 2;
+}
+
+.rodape {
+  background: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  padding: 40px;
 }
