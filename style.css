@@ -88,13 +88,13 @@ p {
   font-size: 64px;
   text-transform: uppercase;
   color: #fb3748;
-  text-align: right;
   padding: 40px;
+  text-align: right;
   align-self: center;
 }
 
 .vantagens {
-  background: #ffffff;
+  background: #655d5d;
   padding: 40px;
 }
 
