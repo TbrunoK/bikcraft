@@ -1,7 +1,7 @@
 body {
   font-family: Arial;
   margin: 0px;
-  background: #f7f7f7;
+  background: #171717;
   display: grid;
   gap: 60px;
   justify-items: center;
@@ -113,6 +113,8 @@ ul li:hover {
   background-color: #000000;
 }
 
+/*Vantagens Bikcraft */
+
 div.vantagens-subititulo {
   display: flex;
 }
@@ -133,6 +135,8 @@ h2.subtitulo {
 h2.subtitulo:hover {
   color: #ffffff;
 }
+
+/*Lista de vantagens */
 
 .vantagens {
   background: #857f7f;
@@ -160,10 +164,17 @@ h2.subtitulo:hover {
   grid-column: 2;
 }
 
+/*Footer */
+
 .rodape {
-  background: rgb(255, 255, 255);
+  background: #1b1b1b;
+
   width: 100%;
   text-align: center;
   padding: 40px;
   box-sizing: border-box;
+}
+
+div.rodape p {
+  color: white;
 }
