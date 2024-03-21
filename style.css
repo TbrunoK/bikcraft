@@ -153,6 +153,7 @@ h2.subtitulo:hover {
 .vantagens-item:hover {
   background-color: #201b1b;
   color: white;
+  border-left: 1px solid red;
 }
 
 .vantagens-item p {
