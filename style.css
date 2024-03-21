@@ -28,7 +28,28 @@ p {
   font-size: 20px;
   line-height: 1.3;
 }
+
 /* Menu */
+ul li a {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+}
+ul li {
+  display: inline;
+  padding: 0.9rem 1.2rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+
+  text-decoration: none;
+  color: black;
+}
+
+ul li:hover {
+  background-color: #655d5d;
+  border-radius: 2px solid rgb(108, 57, 57);
+}
+
 .menu {
   display: flex;
   flex-wrap: wrap;
@@ -37,7 +58,7 @@ p {
 }
 
 .menu a {
-  background: #655d5d;
+  background: #ffffff;
   padding: 15px 30px;
   border-radius: 4px;
   color: #000000;
@@ -52,7 +73,7 @@ p {
 }
 
 .introducao {
-  background: #655d5d;
+  background: #857f7f;
   padding: 40px;
   text-align: right;
   position: relative;
@@ -60,6 +81,10 @@ p {
   gap: 20px;
   align-content: center;
   justify-items: end;
+}
+
+.introducao:hover {
+  background-color: #655d5d;
 }
 
 /* Detalhe - linha vermelha entre as fotos */
@@ -75,7 +100,7 @@ p {
 
 /* botão */
 .botao {
-  background: #e21;
+  background: #ff0000;
   color: #ffffff;
   padding: 15px 30px;
   border-radius: 4px;
@@ -84,7 +109,19 @@ p {
   /*justify-self: end;*/
 }
 
-.subtitulo {
+.botao:hover {
+  background-color: #000000;
+}
+
+div.vantagens-subititulo {
+  display: flex;
+}
+
+div.vantagens-subtitulo:hover {
+  background-color: #857f7f;
+}
+
+h2.subtitulo {
   font-size: 64px;
   text-transform: uppercase;
   color: #fb3748;
@@ -93,9 +130,17 @@ p {
   align-self: center;
 }
 
+h2.subtitulo:hover {
+  color: #ffffff;
+}
+
 .vantagens {
-  background: #655d5d;
+  background: #857f7f;
   padding: 40px;
+}
+
+.vantagens:hover {
+  background-color: #655d5d;
 }
 
 .vantagens-item {
@@ -103,6 +148,11 @@ p {
   grid-template-columns: auto 1fr;
   gap: 10px 20px;
   padding: 20px;
+}
+
+.vantagens-item:hover {
+  background-color: #201b1b;
+  color: white;
 }
 
 .vantagens-item p {
