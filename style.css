@@ -1,17 +1,17 @@
 body {
   font-family: Arial;
-  margin: 0px;
+  margin: 0rem;
   background: #2e2d2d;
   display: grid;
-  gap: 60px;
+  gap: 3.75rem;
   justify-items: center;
-  margin-top: 60px;
+  margin-top: 3.75rem;
 }
 
 .header {
   display: grid;
   justify-items: center;
-  gap: 60px;
+  gap: 3.75rem;
 }
 
 img {
@@ -35,7 +35,7 @@ h3 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 1.5rem;
   line-height: 1.3;
 }
 
@@ -48,10 +48,10 @@ ul {
 /* Menu */
 
 .menu-principal a {
-  font-size: 22px;
+  font-size: 2rem;
   color: rgb(0, 0, 0);
-  padding: 15px 30px;
-  border-radius: 4px;
+  padding: 1rem 1.87rem;
+  border-radius: 0.25rem;
   text-transform: uppercase;
 }
 
@@ -67,14 +67,14 @@ ul li {
 
 ul li:hover {
   background-color: #655d5d;
-  border-radius: 2px solid rgb(108, 57, 57);
+  border-radius: 0.12rem solid rgb(108, 57, 57);
 }
 /* conteúdo principal */
 
 .conteudo {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
+  max-width: 62.5rem;
 }
 
 .introducao {
@@ -83,7 +83,7 @@ ul li:hover {
   text-align: right;
   position: relative;
   display: grid;
-  gap: 20px;
+  gap: 1.5rem;
   align-content: center;
   justify-items: end;
 }
@@ -99,20 +99,20 @@ ul li:hover {
 /* Detalhe - linha vermelha entre as fotos */
 
 .detalhe {
-  width: 60px;
-  height: 4px;
+  width: 2.5rem;
+  height: 0.25rem;
   background: #e21;
   position: absolute;
-  top: 30px;
-  right: -30px;
+  top: 1.87rem;
+  right: -1.87rem;
 }
 
 /* botão */
 .botao {
   background: #ff0000;
   color: #ffffff;
-  padding: 15px 30px;
-  border-radius: 4px;
+  padding: 0.9rem 1.9rem;
+  border-radius: 0.4rem;
   text-transform: uppercase;
   justify-content: end;
   /*justify-self: end;*/
@@ -120,7 +120,7 @@ ul li:hover {
 
 .botao:hover {
   background-color: #000000;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 /*Vantagens Bikecraft */
@@ -131,47 +131,47 @@ ul li:hover {
 
 .vantagens-subtitulo:hover {
   background-color: #857f7f;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 h2.subtitulo {
-  font-size: 64px;
+  font-size: 4rem;
   text-transform: uppercase;
   color: #fb3748;
-  padding: 40px;
+  padding: 2.5rem;
   text-align: right;
   align-self: center;
 }
 
 h2.subtitulo:hover {
   color: #ffffff;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 /*Lista de vantagens */
 
 .vantagens li {
   background: #857f7f;
-  padding: 40px;
+  padding: 2.5rem;
 }
 
 .vantagens:hover {
   background-color: #655d5d;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 .vantagens-item {
   display: grid;
   grid-template-columns: auto 1fr;
-  gap: 10px 20px;
-  padding: 20px;
+  gap: 0.6rem 0.8rem;
+  padding: 1rem;
 }
 
 .vantagens-item:hover {
   background-color: #201b1b;
   color: white;
-  border-left: 5px solid #571e1e;
-  transition: 0.4s;
+  border-left: 0.6rem solid #571e1e;
+  transition: 0.2s;
 }
 
 .vantagens-item p {
@@ -185,7 +185,7 @@ h2.subtitulo:hover {
 
   width: 100%;
   text-align: center;
-  padding: 40px;
+  padding: 0.4rem;
   box-sizing: border-box;
 }
 
