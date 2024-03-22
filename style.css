@@ -88,6 +88,10 @@ ul li:hover {
   justify-items: end;
 }
 
+.introducao h1 {
+  font-size: 2rem;
+}
+
 .introducao:hover {
   background-color: #655d5d;
 }
@@ -121,11 +125,11 @@ ul li:hover {
 
 /*Vantagens Bikecraft */
 
-div.vantagens-subititulo {
+.vantagens-subititulo {
   display: flex;
 }
 
-div.vantagens-subtitulo:hover {
+.vantagens-subtitulo:hover {
   background-color: #857f7f;
   transition: 0.4s;
 }
@@ -146,7 +150,7 @@ h2.subtitulo:hover {
 
 /*Lista de vantagens */
 
-.vantagens {
+.vantagens li {
   background: #857f7f;
   padding: 40px;
 }

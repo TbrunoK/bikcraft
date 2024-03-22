@@ -9,7 +9,6 @@
   <body>
     <header class="header">
       <img class="bikcraft" src="./assets/img/bikcraft.svg" alt="" />
-
       <nav aria-label="primaria">
         <ul class="menu-principal">
           <li><a href="#" target="_blank">Sobre</a></li>
@@ -21,10 +20,10 @@
     </header>
 
     <main>
-      <div class="conteudo">
-        <div class="introducao">
+      <article class="conteudo">
+        <div class="introducao" aria-labelledby="label-introducao">
           <span class="detalhe"></span>
-          <h1>Bicicletas Feitas a Mão</h1>
+          <h1 id="label-introducao">Bicicletas Feitas a Mão</h1>
           <p>
             A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela
             vem equipada com os melhores acessórios da marca.
@@ -35,34 +34,37 @@
           src="./assets/img/bicicleta.jpg"
           alt="Bicileta Modelo Bikcraft preta"
         />
+      </article>
+
+      <article class="conteudo" aria-labelledby="label-vantagens">
         <div class="vantagens-subtitulo">
-          <h2 class="subtitulo">Vantagens Bikcraft</h2>
+          <h2 class="subtitulo" id="vlabel-vantagens">Vantagens Bikcraft</h2>
         </div>
 
-        <div class="vantagens">
-          <div class="vantagens-item">
+        <ul class="vantagens">
+          <li class="vantagens-item">
             <img src="./assets/img/eletrica.svg" alt="" />
             <h3>Motor Elétrico.</h3>
             <p>
               Permite a você viajar a distâncias inimaginaveis com a sua bike.
             </p>
-          </div>
+          </li>
 
-          <div class="vantagens-item">
+          <li class="vantagens-item">
             <img src="./assets/img/velocidade.svg" alt="" />
             <h3>40 Km/h</h3>
             <p>A Mais rápida bicicleta elétrica disponível hoje no mercado.</p>
-          </div>
+          </li>
 
-          <div class="vantagens-item">
+          <li class="vantagens-item">
             <img src="./assets/img/rastreador.svg" alt="" />
             <h3>Rastreador</h3>
             <p>
               Rastreamento e sistema anti-furto para garantir o seu sossego.
             </p>
-          </div>
-        </div>
-      </div>
+          </li>
+        <ul>
+      </article>
     </main>
 
     <div class="rodape">
