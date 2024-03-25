@@ -60,14 +60,14 @@ ul li {
   padding: 0.9rem 1.2rem;
   background-color: #ffffff;
   border-radius: 0.5rem;
-
+  border: 1px solid rgb(255, 255, 255);
   text-decoration: none;
   color: black;
 }
 
 ul li:hover {
   background-color: #655d5d;
-  border-radius: 0.12rem solid rgb(108, 57, 57);
+  border-radius: 0.25rem;
 }
 /* conteúdo principal */
 
@@ -127,6 +127,11 @@ ul li:hover {
 
 .vantagens-subititulo {
   display: flex;
+}
+
+article div.vantagens-subtitulo {
+  background-image: url(./assets/img/onda.svg);
+  opacity: 0.3;
 }
 
 .vantagens-subtitulo:hover {
