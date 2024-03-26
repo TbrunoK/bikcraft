@@ -98,13 +98,14 @@ ul li:hover {
 
 /* Detalhe - linha vermelha entre as fotos */
 
-.detalhe {
-  width: 2.5rem;
+.introducao::before {
+  content: "";
+  width: 4rem;
   height: 0.25rem;
   background: #e21;
   position: absolute;
-  top: 1.87rem;
-  right: -1.87rem;
+  top: 2rem;
+  right: -2rem;
 }
 
 /* botão */
