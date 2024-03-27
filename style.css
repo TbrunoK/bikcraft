@@ -124,7 +124,7 @@ ul li:hover {
   transition: 0.2s;
 }
 
-/*Vantagens Bikecraft */
+/*Vantagens Bikecraft (3/4) */
 
 .vantagens-subititulo {
   display: flex;
@@ -136,7 +136,7 @@ article div.vantagens-subtitulo {
 }
 
 .vantagens-subtitulo:hover {
-  background-color: #857f7f;
+  background-color: #000000;
   transition: 0.2s;
 }
 
@@ -176,7 +176,7 @@ h2.subtitulo:hover {
 .vantagens-item:hover {
   background-color: #201b1b;
   color: white;
-  border-left: 0.6rem solid #571e1e;
+  border-left: 0.8rem solid #571e1e;
   transition: 0.2s;
 }
 
