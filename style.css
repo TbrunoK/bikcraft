@@ -96,6 +96,11 @@ ul li:hover {
   background-color: #655d5d;
 }
 
+.bicicleta-cover img {
+  object-fit: cover;
+  height: 100%;
+}
+
 /* Detalhe - linha vermelha entre as fotos */
 
 .introducao::before {
@@ -147,6 +152,7 @@ h2.subtitulo {
   padding: 2.5rem;
   text-align: right;
   align-self: center;
+  /* word-break: break-all;  */
 }
 
 h2.subtitulo:hover {
