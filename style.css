@@ -222,6 +222,15 @@ h2.subtitulo:hover {
   gap: 30px;
 }
 
+.introducao {
+  text-align: left;
+  justify-items: start;
+}
+
 .introducao::before {
   display: none;
+}
+
+.subtitulo {
+  font-size: 3rem;
 }
