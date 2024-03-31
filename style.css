@@ -204,3 +204,24 @@ h2.subtitulo:hover {
 .rodape p {
   color: white;
 }
+
+@media (max-width: 950px) {
+  .conteudo-vantagem {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    gap: 30px;
+    margin-top: 20px;
+  }
+}
+
+.header {
+  gap: 30px;
+}
+
+.introducao::before {
+  display: none;
+}
