@@ -211,6 +211,10 @@ h2.subtitulo:hover {
   }
 }
 
+.subtitulo {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   body {
     gap: 30px;
@@ -233,4 +237,15 @@ h2.subtitulo:hover {
 
 .subtitulo {
   font-size: 3rem;
+}
+
+@media (max-width: 950px) {
+  .vantagens-item:hover {
+    background-color: #201b1b;
+    color: white;
+    border-left: none;
+    border-top: 0.8rem solid #571e1e;
+    border-bottom: 0.8rem solid #571e1e;
+    transition: 0.2s;
+  }
 }
