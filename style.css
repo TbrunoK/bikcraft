@@ -47,12 +47,31 @@ ul {
 
 /* Menu */
 
+.menu-principal {
+  text-align: center;
+}
+
+.menu-principal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-principal li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu-principal li a {
+  text-decoration: none;
+  color: #000;
+}
+
 .menu-principal a {
   font-size: 2rem;
   color: rgb(0, 0, 0);
   padding: 1rem 1.87rem;
   border-radius: 0.25rem;
-  text-transform: uppercase;
 }
 
 ul li {
