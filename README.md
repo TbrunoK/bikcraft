@@ -25,7 +25,8 @@ O projeto consiste em um arquivo HTML e um arquivo CSS:
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests com melhorias, correções de bugs ou novas funcionalidades.
 
 <div aling="center">
-  <a>
-    <img scr="https://github.com/TbrunoK/posicionamento-exercicio-bikcraft/blob/main/assets/img/Finished.png?raw=true" />
+  <a href="#">
+    <img src="https://github.com/TbrunoK/posicionamento-exercicio-bikcraft/blob/main/assets/img/Finished.png?raw=true"/>
   </a>
 </div>
+
