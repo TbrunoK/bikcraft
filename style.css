@@ -1,7 +1,29 @@
+:root {
+  --cor-background: #2e2d2d;
+
+  --cor-primaria: #e21;
+  --cor-menu: #857f7f;
+  --cor-menu-hover: #655d5d;
+  --cor-before: rgb(1, 255, 107);
+  --cor-primaria-escura: #000000;
+  --cor-texto-escura: #000000;
+  --cor-texto-claro: #ffffff;
+  --cor-hover-claro: #655d5d;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --cor-background: #ffffff;
+    --cor-primaria: #0c2ab1;
+    --cor-menu: #f1eeee;
+    --cor-menu-hover: #000000;
+    --cor-before: rgb(0, 255, 21);
+  }
+}
 body {
   font-family: Arial;
   margin: 0rem;
-  background: #2e2d2d;
+  background: var(--cor-background);
   display: grid;
   gap: 3.75rem;
   justify-items: center;
@@ -46,11 +68,6 @@ ul {
 }
 
 /* Menu */
-
-.menu-principal {
-  text-align: center;
-}
-
 .menu-principal ul {
   list-style: none;
   padding: 0;
@@ -59,17 +76,18 @@ ul {
 
 .menu-principal li {
   display: inline-block;
-  margin: 0 10px;
+
+  text-align: center;
 }
 
 .menu-principal li a {
   text-decoration: none;
-  color: #000;
+  color: var(--cor-texto-escura);
 }
 
 .menu-principal a {
   font-size: 2rem;
-  color: rgb(0, 0, 0);
+  color: var(--cor-texto-escura);
   padding: 1rem 1.87rem;
   border-radius: 0.25rem;
 }
@@ -79,13 +97,13 @@ ul li {
   padding: 0.9rem 1.2rem;
   background-color: #f5f5f5;
   border-radius: 0.5rem;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid #ffffff;
   text-decoration: none;
-  color: black;
+  color: var(--cor-texto-escura);
 }
 
 ul li:hover {
-  background-color: #655d5d;
+  background-color: var(--cor-hover-claro);
   border-radius: 0.25rem;
 }
 /* conteúdo principal */
@@ -97,7 +115,7 @@ ul li:hover {
 }
 
 .introducao {
-  background: #857f7f;
+  background: var(--cor-menu);
   padding: 40px;
   text-align: right;
   position: relative;
@@ -112,7 +130,7 @@ ul li:hover {
 }
 
 .introducao:hover {
-  background-color: #655d5d;
+  background-color: var(--cor-hover-claro);
 }
 
 .bicicleta-cover img {
@@ -126,7 +144,7 @@ ul li:hover {
   content: "";
   width: 4rem;
   height: 0.25rem;
-  background: #e21;
+  background: var(--cor-primaria);
   position: absolute;
   top: 2rem;
   right: -2rem;
@@ -134,8 +152,8 @@ ul li:hover {
 
 /* botão */
 .botao {
-  background: #ff0000;
-  color: #ffffff;
+  background: var(--cor-primaria);
+  color: var(--cor-texto-claro);
   padding: 0.9rem 1.9rem;
   border-radius: 0.4rem;
   text-transform: uppercase;
@@ -144,7 +162,7 @@ ul li:hover {
 }
 
 .botao:hover {
-  background-color: #000000;
+  background-color: var(--cor-primaria-escura);
   transition: 0.2s;
 }
 
@@ -167,7 +185,7 @@ article div.vantagens-subtitulo {
 h2.subtitulo {
   font-size: 4rem;
   text-transform: uppercase;
-  color: #050505;
+  color: var(--cor-primaria-escura);
   padding: 2.5rem;
   text-align: right;
   align-self: center;
@@ -175,19 +193,19 @@ h2.subtitulo {
 }
 
 h2.subtitulo:hover {
-  color: #ffffff;
+  color: var(--cor-texto-claro);
   transition: 0.2s;
 }
 
 /*Lista de vantagens */
 
 .vantagens li {
-  background: #797373;
+  background: var(--cor-menu);
   padding: 2.5rem;
 }
 
 .vantagens:hover {
-  background-color: #504a4a;
+  background-color: var(--cor-menu-hover);
   transition: 0.2s;
 }
 
@@ -200,7 +218,7 @@ h2.subtitulo:hover {
 
 .vantagens-item:hover {
   background-color: #201b1b;
-  color: white;
+  color: var(--cor-texto-claro);
   border-left: 0.8rem solid #571e1e;
   transition: 0.2s;
 }
@@ -212,7 +230,7 @@ h2.subtitulo:hover {
 /*Footer */
 
 .rodape {
-  background: #1b1b1b;
+  background: var(--cor-primaria-escura);
 
   width: 100%;
   text-align: center;
@@ -221,7 +239,7 @@ h2.subtitulo:hover {
 }
 
 .rodape p {
-  color: white;
+  color: var(--cor-texto-claro);
 }
 
 @media (max-width: 950px) {
@@ -261,7 +279,7 @@ h2.subtitulo:hover {
 @media (max-width: 950px) {
   .vantagens-item:hover {
     background-color: #201b1b;
-    color: white;
+    color: var(--cor-texto-claro);
     border-left: none;
     border-top: 0.8rem solid #571e1e;
     border-bottom: 0.8rem solid #571e1e;
