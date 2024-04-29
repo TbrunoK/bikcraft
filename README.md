@@ -26,7 +26,7 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issue
 
 <div aling="center">
   <a href="https://tbrunok.github.io/posicionamento-exercicio-bikcraft/">
-    <img src="https://github.com/TbrunoK/posicionamento-exercicio-bikcraft/blob/main/assets/img/Finished.png?raw=true"/>
+    <img src="https://github.com/TbrunoK/bikcraft/blob/main/assets/img/Finished.png?raw=true"/>
   </a>
 </div>
 
