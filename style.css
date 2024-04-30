@@ -1,27 +1,28 @@
 :root {
   --cor-background: #000000;
-
-  --cor-primaria: #e21;
+  --cor-primaria: rgb(226, 226, 226);
+  --cor-primaria-escura: #c0bebe;
   --cor-menu: #857f7f;
-  --cor-menu-hover: #655d5d;
   --cor-before: rgb(1, 255, 107);
-  --cor-primaria-escura: #fdfdfd;
+  --cor-hover: #868686;
   --cor-texto-bikcraft: #ffffff;
-  --cor-texto: #000000;
-  --cor-hover-claro: #655d5d;
+  --cor-texto: #525151;
   --subtitulo: #ffffff;
   --onda: url(./assets/img/onda-claro.svg);
+  --cor-footer: #a1a1a1;
 }
 /*preferência de cor no modo claro */
 @media (prefers-color-scheme: light) {
   :root {
-    --cor-background: #ffffff;
-    --cor-primaria: #0c2ab1;
-    --cor-menu: #f1eeee;
-    --cor-menu-hover: #000000;
-    --cor-before: rgb(0, 255, 21);
+    --cor-primaria: #ffffff;
     --cor-primaria-escura: #fdfdfd;
-    --subtitulo: #ffffff;
+    --cor-menu: #f1eeee;
+    --cor-footer: #ece9e9;
+    --cor-hover: #dddcdc;
+    --cor-background: #ffffff;
+    --cor-texto-bikcraft: #000000;
+    --cor-texto: #000000;
+    --subtitulo: #000000;
     --onda: url(./assets/img/onda-escura.svg);
   }
 }
@@ -108,7 +109,7 @@ ul li {
 }
 
 ul li:hover {
-  background-color: var(--cor-hover-claro);
+  background-color: var(--cor-hover);
   border-radius: 0.25rem;
 }
 /* conteúdo principal */
@@ -118,6 +119,16 @@ ul li:hover {
   grid-template-columns: 1fr 1fr;
   max-width: 62.5rem;
 }
+
+/* .introducao::before {
+  content: "";
+  width: 4rem;
+  height: 0.25rem;
+  background: red;
+  position: absolute;
+  top: 2rem;
+  right: -2rem;
+} */
 
 .introducao {
   background: var(--cor-menu);
@@ -129,23 +140,12 @@ ul li:hover {
   align-content: center;
   justify-items: end;
 }
-
-.introducao::before {
-  content: "";
-  width: 4rem;
-  height: 0.25rem;
-  background: var(--cor-primaria);
-  position: absolute;
-  top: 2rem;
-  right: -2rem;
+.introducao:hover {
+  background-color: var(--cor-hover);
 }
 
 .introducao h1 {
   font-size: 2rem;
-}
-
-.introducao:hover {
-  background-color: var(--cor-hover-claro);
 }
 
 .bicicleta-cover img {
@@ -165,7 +165,7 @@ ul li:hover {
 }
 
 .botao:hover {
-  background-color: var(--cor-primaria-escura);
+  background: var(--cor-menu);
   transition: 0.2s;
 }
 
@@ -180,7 +180,7 @@ article div.vantagens-subtitulo {
   text-transform: uppercase;
   color: var(--subtitulo);
   text-align: right;
-  padding: 40px;
+
   align-self: center;
   background-image: var(--onda);
   opacity: 0.3;
@@ -194,7 +194,7 @@ article div.vantagens-subtitulo {
 h2.subtitulo {
   font-size: 4rem;
   text-transform: uppercase;
-  color: var(--cor-primaria-escura);
+  color: var(--cor-texto);
   padding: 2.5rem;
   text-align: right;
   align-self: center;
@@ -213,8 +213,10 @@ h2.subtitulo:hover {
   padding: 2.5rem;
 }
 
+/* Detlhe em baixo do menu de vantagem */
+
 .vantagens:hover {
-  background-color: var(--cor-menu-hover);
+  background-color: rgb(214, 214, 214);
   transition: 0.2s;
 }
 
@@ -226,9 +228,9 @@ h2.subtitulo:hover {
 }
 
 .vantagens-item:hover {
-  background-color: #201b1b;
+  background-color: var(--cor-primaria-escura);
   color: var(--cor-texto-claro);
-  border-left: 0.8rem solid #922323;
+  border-left: var(--borda);
   transition: 0.2s;
 }
 
@@ -239,7 +241,7 @@ h2.subtitulo:hover {
 /*Footer */
 
 .rodape {
-  background: var(--cor-primaria-escura);
+  background: var(--cor-footer);
 
   width: 100%;
   text-align: center;
@@ -288,7 +290,7 @@ h2.subtitulo:hover {
 @media (max-width: 950px) {
   .vantagens-item:hover {
     background-color: #201b1b;
-    color: var(--cor-texto-claro);
+    color: var(--cor-texto);
     border-left: none;
     border-top: 0.8rem solid #571e1e;
     border-bottom: 0.8rem solid #571e1e;
