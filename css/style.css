@@ -52,6 +52,8 @@ img {
   color: #ffffff;
   font-size: 18px;
   position: relative;
+  font-family: "poppins";
+  font-weight: 400;
 }
 /* Detalhe embaixo do menu */
 .header-menu a::after {
@@ -107,9 +109,11 @@ img {
   margin-bottom: 32px;
   font-size: 64px;
   line-height: 1.125;
+  font-family: "poppins";
+  font-weight: 600;
 }
 
-.introducao span {
+.introducao h1 span {
   color: #ffbb00;
 }
 
@@ -118,6 +122,8 @@ img {
   font-size: 24px;
   line-height: 1.5;
   color: #b2b2b2;
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 .introducao a {
@@ -130,7 +136,8 @@ img {
   color: #332200;
   font-size: 18px;
   line-height: 1.33;
-  font-weight: bold;
+  font-family: "poppins";
+  font-weight: 600;
 }
 /* Detalhe do botão de introdução */
 .introducao a:hover {
@@ -147,7 +154,7 @@ img {
   }
 }
 
-/* Media */
+/* @Media */
 @media (max-width: 800px) {
   .introducao-bg {
     background: #111111;
