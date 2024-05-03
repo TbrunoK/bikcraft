@@ -23,10 +23,11 @@ O projeto consiste em um arquivo HTML e um arquivo CSS:
 ## Contribuição
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) ou enviar pull requests com melhorias, correções de bugs ou novas funcionalidades.
-
+<!--
 <div aling="center">
   <a href="https://tbrunok.github.io/bikcraft/">
-    <img src="https://github.com/TbrunoK/bikcraft/blob/main/assets/img/Finished.png?raw=true"/>
+    <img src="#"/>
   </a>
 </div>
+-->
 
