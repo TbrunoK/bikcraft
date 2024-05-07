@@ -1,5 +1,5 @@
 .header-bg {
-  background-color: #000000;
+  background-color: var(--cor-12);
 }
 
 .header {
@@ -25,7 +25,6 @@
 .header-menu a {
   display: inline-block;
   padding: 16px 0px;
-  color: #ffffff;
   font-size: 18px;
   position: relative;
   font-family: "poppins";
@@ -38,7 +37,7 @@
   display: block;
   height: 2px;
   width: 0%;
-  background: #ffffff;
+  background: var(--cor-0);
   margin-top: 4px;
   transition: 0.3s;
   position: absolute;
@@ -55,7 +54,7 @@
 
   .header-menu a {
     padding: 12px 10px;
-    background: #111111;
+    background: var(--cor-11);
     border-radius: 4px;
   }
 }
