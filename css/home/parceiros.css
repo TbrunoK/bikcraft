@@ -41,6 +41,11 @@
     margin-bottom: 20px;
   }
 
+  .parceiros li {
+    display: flex;
+    padding: 20px;
+  }
+
   .parceiros ul {
     grid-template-columns: repeat(2, 1fr);
   }
