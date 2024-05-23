@@ -23,7 +23,7 @@
 
 /* Detalhe do botão de introdução */
 .botao:hover {
-  background: linear-gradient(180deg, #ffb60d 0%, #e59317 100%);
+  background: linear-gradient(180deg, #e7a60f 0%, #db890e 100%);
   transition: 0.3s;
 }
 
