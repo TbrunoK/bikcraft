@@ -14,6 +14,9 @@
 @import url(./utilidades/tipografia.css);
 @import url(./utilidades/cores.css);
 
+/* Bicicleta */
+@import url(./bicicleta/bicicleta.css);
+
 /* Bicicletas */
 @import url(./bicicletas/bicicletas-listas.css);
 @import url(./bicicletas/bicicletas.css);
