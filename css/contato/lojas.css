@@ -11,10 +11,13 @@
   margin-bottom: 60px;
 }
 
-.lojas img {
+#mapasp {
   border-radius: 4px 4px 0 0;
 }
 
+#maparj {
+  border-radius: 4px 4px 0 0;
+}
 .lojas-item {
   border-radius: 4px;
   background: var(--cor-0);
