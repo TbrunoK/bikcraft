@@ -21,6 +21,9 @@
 @import url(./home/parceiros.css);
 @import url(./home/tecnologia.css);
 
+/* Orçamento */
+@import url(./orcamento/orcamento.css);
+
 /* Seguros */
 @import url(./seguros/perguntas.css);
 @import url(./seguros/seguros.css);
