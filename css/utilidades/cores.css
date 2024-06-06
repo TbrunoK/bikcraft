@@ -13,6 +13,7 @@
   --cor-10: #e2e2e2;
   --cor-11: #111111;
   --cor-12: #000000;
+
   /* Cinza/Amarelo */
   --cor-p1: #ffbb00;
   --cor-p2: #e4a308;
@@ -20,6 +21,9 @@
   --cor-p4: #a66f00;
   --cor-p5: #332200;
   --cor-p6: #221700;
+
+  /* Box-shadow */
+  --boxs: rgba(0, 0, 0 0.1);
 }
 
 /* Cores 0 ao 12 */
@@ -91,4 +95,10 @@
 
 .cor-p5 {
   color: var(--cor-p5);
+}
+
+/* Box-shadow */
+
+.boxs {
+  color: var(--boxs);
 }
