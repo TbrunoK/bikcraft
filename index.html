@@ -8,6 +8,7 @@
       content="Bicicletas elétricas de alta precisão e qualidade feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft"
     />
     <!--CSS-->
+    <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
     <!--Título-->
     <title>Bikcraft - Bicicletas elétricas</title>
@@ -48,12 +49,18 @@
           </p>
           <a class="link" href="#escolha-a-sua">Escolha a sua</a>
         </div>
-        <div class="introducao-imagem">
+        <picture>
+          <source
+            media="(max-widht: 800px)"
+            srcset="./assets/bicicletas/nimbus.jpg"
+          />
           <img
             src="./assets/fotos/introducao.jpg"
+            width="1280"
+            height="1600"
             alt="Bicicleta elétrica preta"
           />
-        </div>
+        </picture>
       </div>
     </main>
     <article class="bicicletas-lista">
@@ -65,6 +72,8 @@
           <a href="./bicicletas/magic.html">
             <img
               src="./assets/bicicletas/magic-home.jpg"
+              width="920"
+              height="1040"
               alt="bicicleta Magic Might na cor preta"
             />
           </a>
@@ -75,6 +84,8 @@
           <a href="./bicicletas/Nimbus.html">
             <img
               src="./assets/bicicletas/nimbus-home.jpg"
+              width="920"
+              height="1040"
               alt="Bicicleta modelo Nimbus na cor preta"
             />
           </a>
@@ -85,6 +96,8 @@
           <a href="./bicicletas/nebula.html">
             <img
               src="./assets/bicicletas/nebula-home.jpg"
+              width="920"
+              height="1040"
               alt="Bicicleta modelo Nebula na cor branca"
             />
           </a>
@@ -144,14 +157,70 @@
       </h2>
 
       <ul>
-        <li><img src="./assets/parceiros/caravan.svg" alt="caravan" /></li>
-        <li><img src="./assets/parceiros/dogs.svg" alt="caravan" /></li>
-        <li><img src="./assets/parceiros/flexblog.svg" alt="caravan" /></li>
-        <li><img src="./assets/parceiros/handel.svg" alt="caravan" /></li>
-        <li><img src="./assets/parceiros/lescone.svg" alt="caravan" /></li>
-        <li><img src="./assets/parceiros/ranek.svg" alt="caravan" /></li>
-        <li><img src="./assets/parceiros/surfbot.svg" alt="caravan" /></li>
-        <li><img src="./assets/parceiros/wildbeast.svg" alt="caravan" /></li>
+        <li>
+          <img
+            src="./assets/parceiros/caravan.svg"
+            width="140"
+            height="38"
+            alt="caravan"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/parceiros/dogs.svg"
+            width="152"
+            height="39"
+            alt="Dogs"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/parceiros/flexblog.svg"
+            width="165"
+            height="38"
+            alt="Flexblog"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/parceiros/handel.svg"
+            width="139"
+            height="50"
+            alt="Handel"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/parceiros/lescone.svg"
+            width="208"
+            height="41"
+            alt="Lescone"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/parceiros/ranek.svg"
+            width="140"
+            height="36"
+            alt="Ranek"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/parceiros/surfbot.svg"
+            width="200"
+            height="49"
+            alt="Surfbot"
+          />
+        </li>
+        <li>
+          <img
+            src="./assets/parceiros/wildbeast.svg"
+            width="196"
+            height="34"
+            alt="Wildbeast"
+          />
+        </li>
       </ul>
     </section>
 
@@ -159,6 +228,8 @@
       <div>
         <img
           src="./assets/fotos/depoimento.jpg"
+          width="1560"
+          height="1360"
           alt="Pessoa pedalando com uma bikcraft"
         />
       </div>
@@ -211,7 +282,12 @@
     <!--Footer-->
     <footer class="footer-bg">
       <div class="footer container">
-        <img src="./assets/logo/bikcraft.svg" alt="Bikcraft" />
+        <img
+          src="./assets/logo/bikcraft.svg"
+          width="163"
+          height="32"
+          alt="Bikcraft"
+        />
         <div class="footer-contato">
           <h3 class="font-2-l-b cor-0">Contato</h3>
           <ul class="font-2-m cor-5">
@@ -226,13 +302,25 @@
           </ul>
           <div class="footer-redes">
             <a href="#" target="_blank">
-              <img src="./assets/redes/instagram.svg" alt="Instagram"
+              <img
+                src="./assets/redes/instagram.svg"
+                width="32"
+                height="32"
+                alt="Instagram"
             /></a>
             <a href="#" target="_blank">
-              <img src="./assets/redes/facebook.svg" alt="Facebook"
+              <img
+                src="./assets/redes/facebook.svg"
+                width="32"
+                height="32"
+                alt="Facebook"
             /></a>
             <a href="#" target="_blank">
-              <img src="./assets/redes/youtube.svg" alt="Youtube"
+              <img
+                src="./assets/redes/youtube.svg"
+                width="32"
+                height="32"
+                alt="Youtube"
             /></a>
           </div>
         </div>
@@ -240,6 +328,7 @@
           <h3 class="font-2-l-b cor-0">Informações</h3>
           <nav>
             <ul class="font-1-m cor-5">
+              <li><a href="./index.html">Inicio</a></li>
               <li><a href="./bicicletas.html">Bicicletas</a></li>
               <li><a href="./seguros.html">Seguros</a></li>
               <li><a href="./contato.html">Contato</a></li>
