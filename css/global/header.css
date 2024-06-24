@@ -37,7 +37,7 @@
   transition: 0.5s;
 }
 
-.header-menu a:hover::before {
+.header-menu a:houver:after {
   width: 100%;
 }
 @media (max-width: 800px) {
