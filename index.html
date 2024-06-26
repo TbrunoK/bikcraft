@@ -24,14 +24,31 @@
     <header class="header-bg">
       <div class="header container">
         <a href="./">
-          <img id="#inicio" src="./assets/logo/bikcraft.svg" alt="Bikecraft" />
+          <img
+            id="#inicio"
+            src="./assets/logo/bikcraft.svg"
+            alt="Bikecraft"
+            data-anime="150"
+          />
         </a>
 
         <nav aria-label="primaria">
           <ul class="header-menu font-1-m cor-0">
-            <li><a href="./bicicletas.html">Bicicletas</a></li>
-            <li><a href="./seguros.html">Seguros</a></li>
-            <li><a href="./contato.html">Contato</a></li>
+            <li>
+              <a class="fadeInLeft" href="./bicicletas.html" data-anime="200"
+                >Bicicletas</a
+              >
+            </li>
+            <li>
+              <a class="fadeInDown" href="./seguros.html" data-anime="250"
+                >Seguros</a
+              >
+            </li>
+            <li>
+              <a class="fadeInRight" href="./contato.html" data-anime="300"
+                >Contato</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -40,18 +57,20 @@
     <main class="introducao-bg">
       <div class="introducao container">
         <div class="introducao-conteudo">
-          <h1 class="font-1-xxl cor-0">
+          <h1 class="font-1-xxl cor-0 fadeInDown" data-anime="350">
             Bicicletas feitas sob medida<span class="cor-p1">.</span>
           </h1>
-          <p class="font-2-l cor-5">
+          <p class="font-2-l cor-5 fadeInUp" data-anime="400">
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para você. Explore o mundo na sua velocidade com a Bikcraft
           </p>
-          <a class="link" href="#escolha-a-sua">Escolha a sua</a>
+          <a class="link fadeInRight" href="#escolha-a-sua" data-anime="450"
+            >Escolha a sua</a
+          >
         </div>
         <picture>
           <source
-            media="(max-widht: 800px)"
+            media="(max-width: 800px)"
             srcset="./assets/bicicletas/nimbus.jpg"
           />
           <img
@@ -59,6 +78,7 @@
             width="1280"
             height="1600"
             alt="Bicicleta elétrica preta"
+            data-anime="150"
           />
         </picture>
       </div>
@@ -341,7 +361,7 @@
         </p>
       </div>
     </footer>
-
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/scrip.js"></script>
   </body>
 </html>

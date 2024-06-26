@@ -33,6 +33,7 @@
 @import url(./termos/termos.css);
 
 /* Componentes / utilitário */
+@import url(./utilidades/animacao.css);
 @import url(./utilidades/componentes.css);
 @import url(./utilidades/tipografia.css);
 @import url(./utilidades/formulario.css);
