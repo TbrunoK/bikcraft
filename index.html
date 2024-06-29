@@ -10,6 +10,7 @@
     <!--CSS-->
     <link rel="preload" href="./css/style.css" as="style" />
     <link rel="stylesheet" href="./css/style.css" />
+
     <!--Título-->
     <title>Bikcraft - Bicicletas elétricas</title>
     <!-- Fonts -->
@@ -19,6 +20,10 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- Script -->
+    <script>
+      document.documentElement.classList.add("js")
+    </script>
   </head>
   <body>
     <header class="header-bg">
@@ -27,7 +32,7 @@
           <img
             id="#inicio"
             src="./assets/logo/bikcraft.svg"
-            alt="Bikecraft"
+            alt="Bikcraft"
             data-anime="150"
           />
         </a>
@@ -74,6 +79,7 @@
             srcset="./assets/bicicletas/nimbus.jpg"
           />
           <img
+            class="fadeInDown"
             src="./assets/fotos/introducao.jpg"
             width="1280"
             height="1600"

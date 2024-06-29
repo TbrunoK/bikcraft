@@ -16,6 +16,10 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <!-- Script -->
+    <script>
+      document.documentElement.classList.add("js")
+    </script>
   </head>
   <body id="seguros">
     <header class="header-bg">
@@ -42,9 +46,10 @@
           </h1>
         </div>
       </div>
-
+      <!-- Seguros -->
       <div class="seguros container">
-        <div class="seguros-item">
+        <!-- Prata -->
+        <div class="seguros-item fadeInLeft" data-anime="200">
           <h3 class="font-1-xl cor-6">PRATA</h3>
           <span class="font-1-xl cor-0"
             >R$ 199 <span class="font-1-xs cor-6">Mensal</span></span
@@ -62,7 +67,7 @@
           >
         </div>
 
-        <div class="seguros-item">
+        <div class="seguros-item fadeInRight" data-anime="200">
           <h3 class="font-1-xl cor-p1">OURO</h3>
           <span class="font-1-xl cor-0"
             >R$ 299 <span class="font-1-xs cor-6">Mensal</span></span
@@ -292,6 +297,7 @@
         </p>
       </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/scrip.js"></script>
   </body>
 </html>
