@@ -62,10 +62,10 @@
 
 .font-1-xxl {
   /* Shorthand */
-  font: 500 4rem/1.125 "Poppins", sans-serif;
+  font: 500 3.4rem/1.125 "Poppins", sans-serif;
   /*  propriedades
-  1° font-weight: 600;
-  2° font-size: 4rem;
+  1° font-weight: 500;
+  2° font-size: 3.4rem;
   3° line-height: 1.125;
   4° font-family: "poppins", sans-serif;
   */

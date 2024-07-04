@@ -3,19 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Termos e codições" />
-    <!--CSS-->
-    <link rel="stylesheet" href="../css/style.css" />
-    <!--Título-->
+    <meta name="description" content="Bikcraft Nimbus" />
+    <link rel="preload" href="../css/style.min.css" as="style" />
+    <link rel="stylesheet" href="../css/style.min.css" />
+
     <title>Nimbus Stark | Bikcraft - Bicicletas elétricas</title>
-    <!-- Fonts -->
+
+    <link rel="icon" href="../favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <!-- Script -->
+
     <script>
       document.documentElement.classList.add("js")
     </script>
@@ -24,22 +25,39 @@
     <header class="header-bg">
       <div class="header container">
         <a href="../index.html">
-          <img src="../assets/logo/bikcraft.svg" alt="Bikecraft" />
+          <img
+            class="fadeInLeft"
+            data-anime="150"
+            src="../assets/logo/bikcraft.svg"
+            alt="bikcraft"
+          />
         </a>
         <nav aria-label="primária">
           <ul class="header-menu font-1-m cor-0">
-            <li><a href="../bicicletas.html">Bicicletas</a></li>
-            <li><a href="../seguros.html">Seguros</a></li>
-            <li><a href="../contato.html">Contato</a></li>
+            <li>
+              <a class="fadeInLeft" data-anime="200" href="../bicicletas.html"
+                >Bicicletas</a
+              >
+            </li>
+            <li>
+              <a class="fadeInDown" data-anime="250" href="../seguros.html"
+                >Seguros</a
+              >
+            </li>
+            <li>
+              <a class="fadeInRight" data-anime="300" href="../contato.html"
+                >Contato</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
     </header>
 
     <main class="titulo-bg">
-      <div class="titulo-container">
-        <p class="font-2-xl cor-5">R$ 4999</p>
-        <h1 class="font-1-xxl cor-0">
+      <div class="titulo container">
+        <p class="font-2-xl cor-5 fadeInLeft" data-anime="350">R$ 4999</p>
+        <h1 class="font-1-xxl cor-0 fadeInRight" data-anime="350">
           Nimbus Stark<span class="cor-p1">.</span>
         </h1>
       </div>
@@ -219,6 +237,7 @@
         </p>
       </div>
     </footer>
+    <script src="../js/plugins/simple-anime.js"></script>
     <script src="../js/scrip.js"></script>
   </body>
 </html>

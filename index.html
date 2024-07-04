@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preload" href="./css/style.min.css" as="style" />
+    <link rel="stylesheet" href="./css/style.min.css" />
+
+    <title>Bikcraft - Bicicletas elétricas</title>
     <meta
       name="description"
       content="Bicicletas elétricas de alta precisão e qualidade feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft"
     />
-    <!--CSS-->
-    <link rel="preload" href="./css/style.css" as="style" />
-    <link rel="stylesheet" href="./css/style.css" />
 
-    <!--Título-->
-    <title>Bikcraft - Bicicletas elétricas</title>
-    <!-- Fonts -->
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,6 +21,7 @@
       rel="stylesheet"
     />
     <!-- Script -->
+
     <script>
       document.documentElement.classList.add("js")
     </script>
@@ -30,10 +31,11 @@
       <div class="header container">
         <a href="./">
           <img
+            class="fadeInLeft"
+            data-anime="150"
             id="#inicio"
             src="./assets/logo/bikcraft.svg"
             alt="Bikcraft"
-            data-anime="150"
           />
         </a>
 
@@ -69,7 +71,7 @@
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para você. Explore o mundo na sua velocidade com a Bikcraft
           </p>
-          <a class="link fadeInRight" href="#escolha-a-sua" data-anime="450"
+          <a class="link fadeInLeft" href="#escolha-a-sua" data-anime="450"
             >Escolha a sua</a
           >
         </div>
@@ -79,7 +81,7 @@
             srcset="./assets/bicicletas/nimbus.jpg"
           />
           <img
-            class="fadeInDown"
+            class="fadeInRight"
             src="./assets/fotos/introducao.jpg"
             width="1280"
             height="1600"

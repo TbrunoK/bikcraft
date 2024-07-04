@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Termos e codições" />
-    <!--CSS-->
-    <link rel="preload" href="./css/style.css" as="style" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <!--Título-->
+    <meta name="description" content="Contato" />
+
+    <link rel="preload" href="./css/style.min.css" as="style" />
+    <link rel="stylesheet" href="css/style.min.css" />
+
     <title>Contato | Bikcraft - Bicicletas elétricas</title>
-    <!-- Fonts -->
+
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-     <!-- Script -->
+
     <script>
       document.documentElement.classList.add("js")
     </script>
@@ -25,13 +26,30 @@
     <header class="header-bg">
       <div class="header container">
         <a href="./index.html">
-          <img src="./assets/logo/bikcraft.svg" alt="Bikecraft" />
+          <img
+            class="fadeInLeft"
+            data-anime="150"
+            src="./assets/logo/bikcraft.svg"
+            alt="Bikcraft"
+          />
         </a>
         <nav aria-label="primária">
           <ul class="header-menu font-1-m cor-0">
-            <li><a href="./bicicletas.html">Bicicletas</a></li>
-            <li><a href="./seguros.html">Seguros</a></li>
-            <li><a href="./contato.html">Contato</a></li>
+            <li>
+              <a class="fadeInLeft" data-anime="200" href="./bicicletas.html"
+                >Bicicletas</a
+              >
+            </li>
+            <li>
+              <a class="fadeInDown" data-anime="250" href="./seguros.html"
+                >Seguros</a
+              >
+            </li>
+            <li>
+              <a class="fadeInRight" data-anime="300" href="./contato.html"
+                >Contato</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -39,9 +57,11 @@
 
     <main>
       <div class="titulo-bg">
-        <div class="titulo-container">
-          <p class="font-2-l-b cor-5">Resposta em até 24h</p>
-          <h1 class="font-1-xxl cor-0">
+        <div class="titulo container">
+          <p class="font-2-l-b cor-5 fadeInLeft" data-anime="350">
+            Resposta em até 24h
+          </p>
+          <h1 class="font-1-xxl cor-0 fadeInRight" data-anime="350">
             Nosso contato<span class="cor-p1">.</span>
           </h1>
         </div>
@@ -60,18 +80,18 @@
             <a href="mailto:assistencia@bikcraft.com"
               >assistencia@bikcraft.com</a
             >
-            <a href="tel+5521999999999">+55 21 99999-9999</a>
+            <a href="tel:+55-21-99999-9999">+55 21 99999-9999</a>
           </address>
           <div class="contato-redes">
             <a href="#" target="_blank">
-              <img src="./assets/redes/instagram-p.svg" alt="Instagram"
-            /></a>
+              <img src="./assets/redes/instagram-p.svg" alt="Instagram" />
+            </a>
             <a href="#" target="_blank">
-              <img src="./assets/redes/facebook-p.svg" alt="Facebook"
-            /></a>
+              <img src="./assets/redes/facebook-p.svg" alt="Facebook" />
+            </a>
             <a href="#" target="_blank">
-              <img src="./assets/redes/youtube-p.svg" alt="Youtube"
-            /></a>
+              <img src="./assets/redes/youtube-p.svg" alt="Youtube" />
+            </a>
           </div>
         </section>
         <section class="contato-formulario" aria-label="Formulário">
@@ -109,6 +129,7 @@
             <div class="col-2">
               <label for="mensagem">Mensagem</label>
               <textarea
+                class="area"
                 rows="5"
                 id="mensagem"
                 name="mensagem"
@@ -121,7 +142,7 @@
       </div>
     </main>
 
-    <article class="lojas contatiner">
+    <article class="lojas container">
       <h2 class="font-1-xxl">Lojas locais<span class="cor-p1">.</span></h2>
       <div class="lojas-item">
         <img
@@ -137,7 +158,7 @@
           </div>
           <div class="lojas-dados font-2-s cor-8">
             <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
-            <a href="tel+5521999999999">+55 21 9 9999-9999</a>
+            <a href="tel:+55-21-99999-9999">+55 21 9 9999-9999</a>
           </div>
           <p class="lojas-tempo font-1-s">
             <img src="./assets/icones/horario.svg" alt="" /> 08-18 de seg à dom
@@ -151,14 +172,14 @@
           alt="Mapa marcando o endereço em Rua ali perto, 25 - São Paulo - SP"
         />
         <div class="lojas-conteudo">
-          <h3 class="font-1-xl">Rio de Janeiro</h3>
+          <h3 class="font-1-xl">São Paulo</h3>
           <div class="lojas-dados font-2-s cor-8">
             <p>Logo Ali, 52</p>
             <p>São Paulo - SP</p>
           </div>
           <div class="lojas-dados font-2-s cor-8">
             <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
-            <a href="tel+5511999999999">+55 11 9 9999-9999</a>
+            <a href="tel:+55-11-99999-9999">+55 11 9 9999-9999</a>
           </div>
 
           <p class="lojas-tempo font-1-s">
@@ -175,7 +196,7 @@
           <h3 class="font-2-l-b cor-0">Contato</h3>
           <ul class="font-2-m cor-5">
             <li>
-              <a href="tel:+55 9999999999">+55 21 99999-9999</a>
+              <a href="tel:+55-21-99999-9999">+55 21 99999-9999</a>
             </li>
             <li>
               <a href="mailto:contato@bikcraft.com">contato@bikcraft.com</a>
@@ -185,13 +206,25 @@
           </ul>
           <div class="footer-redes">
             <a href="#" target="_blank">
-              <img src="./assets/redes/instagram.svg" alt="Instagram"
+              <img
+                src="./assets/redes/instagram.svg"
+                width="32"
+                height="32"
+                alt="Instagram"
             /></a>
             <a href="#" target="_blank">
-              <img src="./assets/redes/facebook.svg" alt="Facebook"
+              <img
+                src="./assets/redes/facebook.svg"
+                width="32"
+                height="32"
+                alt="Facebook"
             /></a>
             <a href="#" target="_blank">
-              <img src="./assets/redes/youtube.svg" alt="Youtube"
+              <img
+                src="./assets/redes/youtube.svg"
+                width="32"
+                height="32"
+                alt="Youtube"
             /></a>
           </div>
         </div>
@@ -199,10 +232,12 @@
           <h3 class="font-2-l-b cor-0">Informações</h3>
           <nav>
             <ul class="font-1-m cor-5">
-             <li><a href="./index.html">Inicio</a></li>
+              <li><a href="./index.html">Inicio</a></li>
               <li><a href="./bicicletas.html">Bicicletas</a></li>
               <li><a href="./seguros.html">Seguros</a></li>
+
               <li><a href="./termos.html">Termos e Condições</a></li>
+            </ul>
           </nav>
         </div>
         <p class="footer-copy font-2-m cor-6">
@@ -210,6 +245,7 @@
         </p>
       </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/scrip.js"></script>
   </body>
 </html>
