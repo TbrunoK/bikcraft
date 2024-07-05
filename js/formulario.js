@@ -7,7 +7,7 @@ function formularioEnviado(resposta) {
     )
   } else {
     formulario.innerHTML =
-      "<p class='font-2-l' style='grid-column: 1/-1; padding: 1rem; border-radius: 4px; background: #f7f7f7;'><span style='color: #E00000;'>Erro ao Enviar</span>. Envie um email para Contato@contato</p>"
+      "<p class='font-2-l' style='grid-column: 1/-1; padding: 1rem; border-radius: 4px; background: #f7f7f7;'><span style='color: #E00000;'>Erro ao Enviar</span>. Envie um email para Contato@contato.com</p>"
   }
 }
 
